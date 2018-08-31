@@ -3,7 +3,7 @@ public class CosmosBean implements Comparable{
 
 	private String field_name;
 	private String from;
-	private String dlxml;
+	private String mid;
 	private String to;
 	
 	
@@ -19,11 +19,11 @@ public class CosmosBean implements Comparable{
 	public void setFrom(String from) {
 		this.from = from;
 	}
-	public String getDlxml() {
-		return dlxml;
+	public String getMid() {
+		return mid;
 	}
-	public void setDlxml(String dlxml) {
-		this.dlxml = dlxml;
+	public void Mid(String mid) {
+		this.mid = mid;
 	}
 	public String getTo() {
 		return to;
