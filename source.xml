@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xform>
+	<field-set>
+		<fields>
+		
+			<field name = "sanju">
+				<source xpath = "1/2/3/4" />
+				<target xpath = "a/b/c/d" />
+			</field>
+			
+			<field name = "sujji">
+				<source xpath = "5/6/7/8" />
+				<target xpath = "e/f/g/h" />
+			</field>
+			
+		</fields>
+	</field-set>
+</xform>
