@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XForm>
+	<Message>
+		<Fields>
+		
+			<Field Name = "first" >
+				<From XPath = "a/b/c/d" />
+				<To Startindex = "10" />
+			</Field>
+			
+			<Field Name = "second" >
+				<To Startindex = "1" />
+			</Field>
+			
+			<Field Name = "third" >
+				<From XPath = "e/f/g/h" />
+				<To Startindex = "122" />
+			</Field>
+			
+		</Fields>
+	</Message>
+</XForm>
