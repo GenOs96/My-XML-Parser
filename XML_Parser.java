@@ -97,8 +97,8 @@ public class MyParser {
 							
 							if(from.equals(target)) {
 								
-								String dlxml = from;
-								temp_bean.setDlxml(dlxml);
+								String mid = from;
+								temp_bean.setMid(mid);
 								
 								from = source;
 								temp_bean.setFrom(from);
