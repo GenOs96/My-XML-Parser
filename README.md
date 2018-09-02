@@ -1,1 +1,1 @@
--> manipulates two xmls and prints the fetched values in a table format
+-> manipulates two xmls and prints the fetched values to an excel file
