@@ -1,12 +1,18 @@
 
-public class CosmosBean implements Comparable{
+public class CosmosBean implements Comparable<Object>{
 
 	private String field_name;
 	private String from;
 	private String mid;
 	private String to;
+	private String logic;
 	
-	
+	public String getLogic() {
+		return logic;
+	}
+	public void setLogic(String logic) {
+		this.logic = logic;
+	}
 	public String getField_name() {
 		return field_name;
 	}
@@ -22,7 +28,7 @@ public class CosmosBean implements Comparable{
 	public String getMid() {
 		return mid;
 	}
-	public void Mid(String mid) {
+	public void setMid(String mid) {
 		this.mid = mid;
 	}
 	public String getTo() {
