@@ -6,13 +6,28 @@
 			<field name = "sanju">
 				<source xpath = "1/2/3/4" />
 				<target xpath = "a/b/c/d" />
+				<eval ref = "method_1" />
 			</field>
 			
 			<field name = "sujji">
 				<source xpath = "5/6/7/8" />
 				<target xpath = "e/f/g/h" />
+				<eval ref = "method_2" />
 			</field>
+			
+			<field name = "satu">
+				<source xpath = "7/8/9/10" />
+				<target xpath = "g/h/i/j" />
+			</field>
+			
 			
 		</fields>
 	</field-set>
+	<eval ref = "method_1">
+	hhjjhhjjhhjj
+	</eval>
+	
+	<eval ref = "method_2">
+	kkllkkllkkll
+	</eval>
 </xform>
