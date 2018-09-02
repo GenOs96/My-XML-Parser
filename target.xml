@@ -1,22 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <XForm>
-	<Message>
-		<Fields>
+
+	<Message-type>
+		<type name = "want">
+			<class>main</class>
+			<class>temp</class>
+		</type>
 		
+		<type name = "dont_want">
+		<class>scrap</class>
+		</type>
+	</Message-type>
+
+	<Message class = "main">
+		<Fields>		
 			<Field Name = "first" >
 				<From XPath = "a/b/c/d" />
-				<To Startindex = "10" />
+				<To Startindex = "10" Length = "1" Default = "~" CallMethod = "func_1"/>
 			</Field>
 			
 			<Field Name = "second" >
-				<To Startindex = "1" />
+				<To Startindex = "1" Length = "3" Default = "!"/>
 			</Field>
 			
 			<Field Name = "third" >
 				<From XPath = "e/f/g/h" />
-				<To Startindex = "122" />
+				<To Startindex = "122" Length = "2" Default = "@" CallMethod = "func_2"/>
 			</Field>
-			
+					
+			<Field Name = "fourth" >
+				<From XPath = "g/h/i/j" />
+			</Field>
+				
 		</Fields>
 	</Message>
+	
+	<Method CallMethod = "func_1">
+		<Parameter>hmmmm</Parameter>
+		<Parameter>yoyo!</Parameter>
+	</Method>
+	
+	<Method CallMethod = "func_2">
+	<Parameter>sanj</Parameter>
+	<Parameter>anju</Parameter>
+	</Method>
+	
 </XForm>
